@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Hangman {
-  
+
   public static final String[] words = {"ant", "baboon", "badger", "bat", "bear", "beaver", "camel",
   "cat", "clam", "cobra", "cougar", "coyote", "crow", "deer",
   "dog", "donkey", "duck", "eagle", "ferret", "fox", "frog", "goat",
@@ -11,7 +11,7 @@ public class Hangman {
   "shark", "sheep", "skunk", "sloth", "snake", "spider", "stork", "swan",
   "tiger", "toad", "trout", "turkey", "turtle", "weasel", "whale", "wolf",
   "wombat", "zebra"};
-  
+
   public static final String[] gallows = {
       "+---+\n" +
       "|   |\n" +
@@ -122,7 +122,6 @@ public class Hangman {
     }
 
     scan.close();
-    
   }
 
   public static void printGallows(String[] gallows, int miss) {
